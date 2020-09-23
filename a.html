@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>panda home commerce</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+ 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <script src="admin.js" async></script>
+
+    <style>
+      #span{
+        position: absolute;
+        top: 12%;
+        right: 3%;
+         color: black;
+      }
+    </style>
+
+</head>
+
+<body>
+
+ 
+  <div class="container">
+ 
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <a class="navbar-brand" href="#">
+        <img src="images/logo.png" alt="">
+
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+         
+          <li class="nav-item">
+            <a class="nav-link" href="#Backpack">Guitar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Contacts">Contacts</a>
+          </li>
+        </ul>
+         <!----------->
+       <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2  d-none d-lg-block   " type="search" placeholder="Search" aria-label="Search">
+       
+        <button type="button" class="btn btn-outline-primary d-none d-lg-block">Search</button>
+     
+      <!-- Button trigger modal -->
+       
+        
+
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-info ml-2" data-toggle="modal" data-target="#exampleModalCenter">
+          Log in
+        </button>
+
+      <!-- Modal -->
+   
+
+         
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-info ml-2 " data-toggle="modal" data-target="#staticBackdrop">
+        Regestration
+      </button>
+
+<!-- Modal -->
+ 
+    
+    </form>
+     <!------->
+      </div>
+
+       
+
+      <div class="icon">
+
+       
+           <a href="product.html"> <i class="fa fa-shopping-cart" id="cart"   style="font-size:48px;color:red"></i> </a>
+         
+         
+        
+        <p id="span"></p>
+
+      </div>
+
+   
+    </nav>
+       
+  </div>+
+
+ 
+   
+  <div class="container">
+
+    <div id="carouselExampleControls" class="carousel slide orange-bg" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+
+          <div class="row  d-flex align-items-center">
+
+            <div class="col-md-7">
+
+              <h1> Hobner 265 F Cut Semi Acoustic Guitar Narrow Body</h1>
+
+            
+              <h1 class="price">5500 tk</h1>
+
+              <div class="d-flex justify-content-center">
+                <button class="buy-now-button1  " onclick="cot() " data-toggle="modal" data-target="#exampleModalCenter1" >Show Details</button>
+              </div>
+             
+
+            </div>
+
+            <div class="col-md-5">
+
+
+              <img src="images/guitar81.png" class="d-block w-100" alt="...">
+            </div>
+
+          </div>
+
+
+        </div>
+        <div class="carousel-item">
+
+          <div class="row   d-flex align-items-center">
+            <div class="col-md-7">
+
+              <h1> Deviser 720B Acoustic Guitar</h1>
+
+             
+
+              <h1 class="price">1100 tk</h1>
+              <div class="d-flex justify-content-center">
+                <button class="buy-now-button1  " onclick="cot() " data-toggle="modal" data-target="#exampleModalCenter1" >Show Details</button>
+              </div>
+
+            </div>
+            <div class="col-md-5">
+              <img src="images/guitar61.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+
+          <div class="row   d-flex align-items-center">
+            <div class="col-md-7">
+
+              <h1>  Givson Crown Super Acoustic Guitar with Electric Output - Sunburst</h1>
+
+              
+              <h1 class="price">6000 tk</h1>
+              <div class="d-flex justify-content-center">
+                <button class="buy-now-button1  " onclick="cot() " data-toggle="modal" data-target="#exampleModalCenter1" >Show Details</button>
+              </div>
+
+            </div>
+            <div class="col-md-5">
+              <img src="images/guitar51.png" class="d-block w-100" alt="...">
+
+            </div>
+          </div>
+
+
+
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+  </div>
+
+  <div class="container categories">
+
+    <div class="row">
+      <div class="col-md-4">
+
+        <div class="cat1 d-flex justify-content-between align-items-center">
+          <h1>GUITAR</h1>
+          <img src="images/guitar61.png" alt="">
+        </div>
+
+      </div>
+      <div class="col-md-4">
+        <div class="cat2 d-flex justify-content-between align-items-center">
+          <h1>GUITAR</h1>
+          <img src="images/guitar71.png" alt="">
+        </div>
+
+
+      </div>
+      <div class="col-md-4 ">
+
+        <div class="cat3 d-flex justify-content-between align-items-center">
+
+          <h1>GUITAR</h1>
+          <img src="images/guitar81.png" alt="">
+        </div>
+
+      </div>
+    </div>
+  </div>
+ 
+  <div class="container" id="Backpack">
+
+    <h3>Backpack</h3>
+    <div class="card-deck">
+      <div class="card">
+        <img src="images/guitar1.jpg" class="card-img-top" alt="...">
+        <div class="card-body ">
+          <h5 class="card-title">Signature New Acousic guitar -blue </h5>
+          <h3>4000 tk</h3>
+   
+        </div>
+        <div class="card-footer">
+          <button class="buy-now-button1" onclick="cot() " data-toggle="modal" data-target="#exampleModalCenter1" >Show Details</button>
+        </div>
+      </div>
+      
+      <div class="card">
+        <img src="images/guitar2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">TMG Acoustic Guitar</h5>
+          <h3>3000 tk</h3>
+        </div>
+        <div class="card-footer">
+          <button class="buy-now-button1" onclick="cot()"  data-toggle="modal" data-target="#exampleModalCenter2">Show Details</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/guitar3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Trend Acoustic guitar</h5>
+           <h3>2000 tk</h3>
+        </div>
+        <div class="card-footer">
+          <button class="buy-now-button1" id="btn"  data-toggle="modal" data-target="#exampleModalCenter3" > Show Details
+
+          </button>
+        </div>
+      </div>
+    </div>
+
+
+
+
+  </div>
+  <div class=" orange-bg " id="Contacts">
+
+    <div>
+      <h3 style="text-align: center;"> STAY IN TOUCH</h3>
+      <h6 style="text-align: center;"> get update on sale </h6>
+       
+    </div>
+    <div>
+      <div class="row">
+
+        <div class="col-lg-5 col-md-12">
+          
+          <h2 style="color:black">
+            Panda
+          </h2>
+          <h6 style="color: black;">
+            -buy sell share review here
+          </h6>
+          
+
+          <h6 style="color: black;">
+            call us: <a href="">01737837</a>
+          </h6>
+          <h6 style="color: black;">
+            Email: <a href=""> ksudkidmjui@bgxj.com</a>
+          </h6>
+
+        </div>
+
+          <div class="col-lg-2 col-md-12">
+            <h2 style="color: black;">
+              Explore
+            </h2>
+            <div class="div">
+              <a href="">home</a>
+            </div>
+            <div class="div">
+              <a href="">about</a>
+            </div>
+           
+           <div class="div">
+            <a href="">service</a>
+           </div>
+          </div>
+
+          <div class="col-lg-3 col-md-12">
+            <h2 style="color: black;">
+              Team Work
+            </h2>
+            <div class="div">
+              <a href="">Team Member</a>
+            </div>
+            <div class="div">
+              <a href="">Who We Are</a>
+            </div>
+           
+           <div class="div">
+            <a href="">Objectives</a>
+           </div>
+          </div>
+
+          <div class="col-lg-2 col-md-12">
+            <h2 style="color: black;">
+              Marketing
+            </h2>
+            <div class="div">
+              <a href="">Our Marketingplace</a>
+            </div>
+            <div class="div" style="color: black;">
+              <a href="">Objectives</a>
+            </div>
+           
+            
+          </div>
+    </div>
+  </div>
+
+  <footer>
+
+    <small>
+      @ all rights reserved
+    </small>
+  </footer>
+
+  <!----------modal-->
+  <div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
+      <div class="modal-content" style="height: 600px;  width: 600px; " >
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle"> Product Details</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body" style="margin-top: 10px; ">
+          
+           
+          <h3>  Product details of TGM Acoustic Guitar - Wooden </h3>
+         
+          <ul>
+            <li>
+              Everything you need to start playing straight out of the box
+            </li>
+            <li>
+              Full-size dreadnought body for full and vibrant tone, suited for all styles of music
+            </li>
+            <li>
+              20-fret rosewood fingerboard with dot inlays
+            </li>
+            <li>
+              Hi Glose Finished
+            </li>
+          </ul>
+          <p>
+            Rosewood bridge with compensated synthetic bone saddle
+            Laminated spruce top
+           <h3> About Acoustic Guitar </h3> 
+            An acoustic guitar is a guitar that produces sound acoustically by transmitting the vibration of the strings to the air—as opposed to relying on electronic amplification (see electric guitar). 
+            The sound waves from the strings of an acoustic guitar resonate through the guitar's body, creating sound. 
+            This typically involves the use of a sound board and a sound box to strengthen the vibrations of the strings.
+            The main source of sound in an acoustic guitar is the string, which is plucked or strummed with the finger or with a pick.
+             The string vibrates at a necessary frequency and also creates many harmonics at various different frequencies.
+             The frequencies produced can depend on string length, mass, and tension. 
+             The string causes the soundboard and sound box to vibrate, and as these have their own resonances at certain frequencies, they amplify some string harmonics more strongly than others, hence affecting the timbre produced by the instrument.
+            </p>  
+            <p> 
+            A great introductory acoustic, priced for anyone to afford. 
+            It comes this amazing deal acoustic guitar. 
+            The Rogue guitar is an ideal instrument for the beginner, or young musician. 
+            The body depth and width bring out balanced tone and plenty of projection to be heard from across the room.
+             This ultra-affordable acoustic guitar features a whitewood body, which brings out lots of mid-range punch. 
+             The nato neck adds sustain without losing any strength in tone. 
+             The painted maple bridge and fingerboard add clarity to each note, and a striking look to the front of the guitar.
+           
+            </p>
+        </div>
+        <div class="modal-footer " style="margin-top: 5px;">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">ADDToCart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-----modal2nd-->
+  <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
+      <div class="modal-content" style="height: 600px;" >
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Product Details</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body" style="margin-top: 10px; ">
+          
+            <h3>Product details of Signature New Accoustic Guitar With Electric Output - Blue</h3>
+        <ul>
+         <li>Neck: Mahogany</li>
+         <li>Fingerboard: Ebony</li>
+         <li>Cutaway: soft (round)</li>
+         <li>Headstock: Flat headstock</li>
+         <li>Top: AAA European spruce</li>
+         <li> Scale length: 650 mm (25.6 inch)</li>
+         <li> Soundhole rosette: Wooden core</li>
+         <li>Pickup system: L.R. bags anthem</li>
+         <li>Neck width at nut: 44 mm (1.73 inches)</li>
+        </ul>
+        <h3>Signature New Accoustic Guitar With Electric Output - Blue</h3>
+
+        <p>
+          An acoustic guitar is a guitar that produces sound acoustically by transmitting the vibration of the strings to the air—as opposed to relying on electronic amplification (see electric guitar). The sound waves from the strings of an acoustic guitar resonate through the guitar's body, creating sound. This typically involves the use of a soundboard and a sound box to strengthen the vibrations of the strings
+        </p>
+
+        </div>
+        <div class="modal-footer " style="margin-top: 5px;">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">ADDToCart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!------modal3rd-->
+  <div class="modal fade" id="exampleModalCenter3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
+      <div class="modal-content" style="height: 600px;" >
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle"> Product Details</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body" style="margin-top: 10px; ">
+          
+            <h3>Product details of Trend Acousic guitar</h3>
+            <ul>
+              <li>With 1x Guitar ,1x Strap, 1x Bag And 5 Picks
+              </li>
+              <li>Colour : Blue</li>
+              <li>Top: AAA European spruce</li>
+              <li>Colour: Black Matt</li>
+              <li>Back & Sides: Indian rosewood AAA (Style 32)</li>
+              <li>Soundhole rosette: Wooden core (matching back & sides) with purflings</li>
+              <li>Fingerboard: Ebony</li>
+              <li>Neck width at nut: 44mm (1.73 inch)</li>
+              <li>Headstock: Flat headstock</li>
+              <li>Scale length: 650mm (25.6 inch)</li>
+            </ul>
+
+        </div>
+        <div class="modal-footer " style="margin-top: 5px;">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">ADDToCart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!----------reg modal-->
+
+  <div class="modal fade "  id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable ">
+      <div class="modal-content"  style="height: 950px; width: 800px;" >
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Registration</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body " style="margin-top: 10px;">
+          
+          <form >
+            <div class="row">
+              <div class=" col-lg-6 col-sm-12">
+                <label for="">First name</label>
+                <input type="text" class="form-control" placeholder="First name " id="fname" onkeyup="validate()" >
+              </div>
+              <div class=" col-lg-6 col-sm-12">
+                <label for="">Last name</label>
+                <input type="text" class="form-control" placeholder="Last name" id="lname" onkeyup="validate()" >
+              </div>
+            </div>
+ 
+            <div class="row">
+              <div class="col-lg-6 col-sm-12">
+                <label for="exampleInputEmail1">Email </label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+              </div>
+              <div class=" col-lg-6  col-sm-12">
+                <label for="">Phone number</label>
+                <input type="text" class="form-control" placeholder="phone number" id="phonenumber"onkeyup="validate()" >
+              </div>
+            </div>
+ 
+              
+            <div class="row">
+              
+              <div class="form-group col-lg-4 mb-3 col-md-12 col-sm-12">
+                <label for="validationCustom04">Places</label>
+                <select class="custom-select" id="validationCustom04" required >
+                  <option selected disabled value="">Choose...</option>
+                  <option>Dhanmondi</option>
+                  <option>Gulshan</option>
+                  <option>Mohammadpur</option>
+                </select>
+                
+              </div>
+              <div class="form-group col-lg-8 col-md-12 mb-3 col-sm-12">
+                <label for="validationCustom05">Address</label>
+                <input type="text" class="form-control" id="validationCustom05" placeholder="Address">
+                
+              </div>
+ 
+              
+            </div>
+            <div class="row">
+              <div class="  col-sm-12 col-lg-12">
+                <label for="">Password</label>
+                <input type="password" class="form-control" placeholder="password" id="pass" onkeyup="validate() "  >
+              </div>
+              <div class=" col-sm-12 col-lg-12">
+                <label for="">password</label>
+                <input type="password" class="form-control" placeholder="confirmed password" id="conpass" onkeyup="validate()" >
+              </div>
+            </div>
+             
+            <label for="">Gender:</label>
+            <div class="h">
+ 
+            </div>
+ 
+            <div class="form-check form-check-inline ">
+              
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+              <label class="form-check-label " for="inlineRadio1">Male</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+              <label class="form-check-label" for="inlineRadio2">Female</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3" checked>
+              <label class="form-check-label" for="inlineRadio3">Other</label>
+            </div>
+            
+          
+          
+        </div>
+        <div class="modal-footer " style="margin-top: 1px;">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="submit" class="btn btn-primary" onclick="verify()" >register</button>
+        </div>
+       </form>
+      </div>
+    </div>
+  </div>
+ 
+  
+ 
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
+      <div class="modal-content" style="height: 400px;" >
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Login credentials</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body" style="margin-top: 10px; ">
+          
+      
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+               
+           
+            
+             
+           
+           
+ 
+            <div class="form-group ">
+              <label for="exampleInputPassword1 ">Password</label>
+              <input type="password" class="form-control" placeholder="password" id="pass1" onkeyup="validate() "  >
+               
+            
+         
+            </div>
+           
+             
+     
+ 
+        </div>
+        <div class="modal-footer " style="margin-top: 5px;">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="submit" class="btn btn-primary" onclick="verify()">Login</button>
+        </div>
+      </form>
+      </div>
+    </div>
+  </div>
+ 
+
+
+  <script>
+    var count = 0;
+    document.getElementById("btn").addEventListener("click", cot);
+
+    function cot(event) {
+       
+     count = count + 1;
+      console.log(count);
+      document.getElementById("span").innerHTML= count;
+  
+     //var btn1=  document.getElementById("btn").parentNode.parentNode;
+
+     var btn1=  document.getElementsByClassName("buy-now-button1") 
+      console.log(btn1[0].parentNode);
+  //     imglink= btn1.getElementsByClassName('card-img-top')[0].src
+
+       imglink= btn1[0].parentNode.parentNode.getElementsByClassName('card-img-top') 
+     for(var i = 0; i< imglink.length; i++) {
+            var x = document.createElement("IMG");
+        x.setAttribute("src", imglink[i].src);
+        x.setAttribute("width", "304");
+        x.setAttribute("height", "228");
+        x.setAttribute("alt", "The Pulpit Rock");
+        // document.product.appendChild(x);
+        // document.getElementById("my-product").appendChild(x);
+        var p = 29;
+
+         var tablebody = document.querySelector('tbody');
+                tablebody.innerHTML=tablebody.innerHTML+"<tr><td>"+ '<img src = "'+imglink[i].src+'""  style="height: 208px; width="304px"" > '+ "</td><tr>";
+         
+
+        console.log(imglink)
+
+      }
+            
+        }  
+
+        function product(){
+          var bt= document.getElementById("my-product").style.display ="block";
+           
+        }
+       
+        //
+        function verify(){
+      var user1=document.getElementById("pass").value;
+      var user2=document.getElementById("conpass").value;
+      var user11=document.getElementById("pass1").value;
+
+      if(user1.length == 0){
+                     
+                              alert("insert password");
+     
+                   }
+                   else{
+                                   
+                        if(user1 == user2){
+                          
+                        }
+                        else{
+                          alert("password did not match.insert again");
+                        }
+                   }
+                   if(user11.length == 0){
+                     alert("pasword insert")
+                   }
+
+    }
+        function validate(){
+                var fname=  /^[0-9a-zA-Z]+$/;
+
+                var userfname=document.getElementById("fname").value;
+
+                if(fname.test(userfname)){
+                     
+                  document.getElementById("fname").style.borderColor = "green";               
+  
+                }
+                else{
+                  document.getElementById("fname").style.borderColor = "red";               
+  
+                }
+
+            var lname=  /^[0-9a-zA-Z]+$/;
+
+            var userlname=document.getElementById("lname").value;
+
+            if(lname.test(userlname)){
+                
+              document.getElementById("lname").style.borderColor = "green";               
+
+            }
+            else{
+              document.getElementById("lname").style.borderColor = "red";               
+
+                        }
+
+              var pnumber=  /^[0][0-9]{10,}$/;
+
+            var userpnumber=document.getElementById("phonenumber").value;
+
+            if(pnumber.test(userpnumber)){
+                
+              document.getElementById("phonenumber").style.borderColor = "green";               
+
+            }
+            else{
+              document.getElementById("phonenumber").style.borderColor = "red";               
+
+            }
+
+
+            var pass=  /[0-9a-zA-z]{8,}$/;
+
+            var userpass=document.getElementById("pass").value;
+
+            if(pass.test(userpass)){
+                
+              document.getElementById("pass").style.borderColor = "green";               
+
+            }
+            else{
+              document.getElementById("pass").style.borderColor = "red";               
+
+                        }
+
+           var conpass=  /[0-9a-zA-z]{8,}$/;
+
+            var userconpass=document.getElementById("conpass").value;
+
+            if(conpass.test(userconpass)){
+                
+              document.getElementById("conpass").style.borderColor = "green";               
+
+            }
+            else{
+              document.getElementById("conpass").style.borderColor = "red";               
+
+            }
+
+            var pass1=  /[0-9a-zA-z]{8,}$/;
+
+            var userpass1=document.getElementById("pass1").value;
+
+            if(pass1.test(userpass1)){
+                
+              document.getElementById("pass1").style.borderColor = "green";               
+
+            }
+            else{
+              document.getElementById("pass1").style.borderColor = "red";               
+
+          }
+
+
+               
+            }
+
+           
+            
+            
+       
+   
+   
+  </script>
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
